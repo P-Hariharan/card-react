@@ -2,12 +2,17 @@ import React from "react";
 import "./Home.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Paris from "./photo/paris.jpg"
+import Dubai from "./photo/dubai.jpg"
+import London from "./photo/london.jpg"
+import America from "./photo/america.jpg"
+
 
 const Home = () => {
   return (
     <div className="home">
       <Card className="card" style={{ width: "15rem" }}>
-        <Card.Img variant="top" src="src/components/home/photo/paris.jpg" />
+        <Card.Img variant="top" src={ Paris }/>
         <Card.Body>
           <Card.Title>PARIS</Card.Title>
           <Card.Text>
@@ -20,7 +25,7 @@ const Home = () => {
       </Card>
 
       <Card style={{ width: "15rem" }}>
-        <Card.Img variant="top" src="src/components/home/photo/london.jpg" />
+        <Card.Img variant="top" src={ London } />
         <Card.Body>
           <Card.Title>LONDON</Card.Title>
           <Card.Text>
@@ -33,7 +38,7 @@ const Home = () => {
       </Card>
 
       <Card style={{ width: "15rem" }}>
-        <Card.Img variant="top" src="src/components/home/photo/america.jpg" />
+        <Card.Img variant="top" src={ America } />
         <Card.Body>
           <Card.Title>AMERICA</Card.Title>
           <Card.Text>
@@ -45,7 +50,7 @@ const Home = () => {
       </Card>
 
       <Card style={{ width: "15rem" }}>
-        <Card.Img variant="top" src="src/components/home/photo/dubai.jpg" />
+        <Card.Img variant="top" src={ Dubai } />
         <Card.Body>
           <Card.Title>DUBAI</Card.Title>
           <Card.Text>
