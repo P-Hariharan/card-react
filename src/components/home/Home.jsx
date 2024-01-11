@@ -20,7 +20,7 @@ const Home = () => {
       </Card>
 
       <Card style={{ width: "15rem" }}>
-        <Card.Img variant="top" src="src/components/home/photo/london.jpg" />
+        <img variant="top" src="src/components/home/photo/london.jpg" />
         <Card.Body>
           <Card.Title>LONDON</Card.Title>
           <Card.Text>
