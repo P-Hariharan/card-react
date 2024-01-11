@@ -24,7 +24,7 @@ const Home = () => {
         <Card.Body>
           <Card.Title>LONDON</Card.Title>
           <Card.Text>
-            Buckingham Palace, Tower of London, Thames River, British Museum,
+            uckingham Palace, Tower of London, Thames River, British Museum,
             London Eye's view. Embrace Soho's vibe, Covent Garden's charm, Tower
             Bridge's allure.
           </Card.Text>
