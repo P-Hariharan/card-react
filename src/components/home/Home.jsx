@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import Paris from "./photo/paris.jpg"
+import Paris from "https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15.jpg"
 import Dubai from "./photo/dubai.jpg"
 import London from "./photo/london.jpg"
 import America from "./photo/america.jpg"
